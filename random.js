@@ -5,7 +5,8 @@ let PostProd = ['Adobe Premiere Pro', 'Adobe After Effect', 'Adobe Photoshop', '
  'Adobe Dreamweaver', 'FL Studio', 'Avid Media Composer', 'Da Vinci Résolve', 'Adobe Audition', 'Blender', 'Krita', 'Adobe In Design', 
  'Zbrush', 'AE script','TRAPCODE', 'Adobe XD', 'Canvas', 'FIGMA', 'Gantt Project', 'Windows Shortcut'];
 
- let COde = ['PHP', 'HTML', 'CSS', 'Javascript', 'Java', 'Python', 'MySQL', 'Bootstrap', 'Kotlin', 'Angular', 'ReactJS', 'VSCODE', 'Pycharm', 'DataGrip','Data-science','I.A', 'C', 'Ruby', 'GO', 'HEROKU', 'GitLab' ]
+ let COde = ['PHP', 'HTML', 'CSS', 'Javascript', 'Java', 'Python', 'MySQL', 'Bootstrap', 'Kotlin', 'Angular',
+  'ReactJS', 'VSCODE', 'Pycharm', 'DataGrip','Data-science','I.A', 'C', 'Ruby', 'GO', 'HEROKU', 'GitLab', 'Vue','PHP Storm' ]
 
  let JEUX = ['Unity', 'Unreal Engine 5', 'C++', 'C#', 'Blender','Cryengine',]
 
@@ -19,7 +20,7 @@ let PostProd = ['Adobe Premiere Pro', 'Adobe After Effect', 'Adobe Photoshop', '
 tous = PostProd.concat(COde, JEUX,CMa,Théorie, Langue)
 tlenght = tous.length
 
-console.log(Langue.length)
+console.log(tous.length)
   
 function melanger(min, max){
     return Math.floor(Math.random()*tous.length)
@@ -52,7 +53,7 @@ function melanger6(min, max){
 
 
 button.addEventListener('click', event => {
-    texte.innerHTML=tous[melanger(0,82)];
+    texte.innerHTML=tous[melanger(0,84)];
 })
 
 let BPP = document.querySelector('#PP')

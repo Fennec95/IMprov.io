@@ -84,3 +84,10 @@ background-color: rgba(141, 141, 141, 0.425);
   justify-items: center;
 
 }
+
+.bouton1 .active:hover  {
+  background-color: black;
+  border-color: rgb(2, 162, 255);
+  color:  rgb(2, 162, 255);
+  transition: all 0.6s ease-in-out;
+}
